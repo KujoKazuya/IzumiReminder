@@ -1,0 +1,69 @@
+{
+	"version":"Sample 1.0.0",
+	"name":"izumi",
+	"model":"izumi.moc",
+	"textures":
+	[
+		"izumi.1024/texture_00.png",
+		"izumi.1024/texture_01.png",
+		"izumi.1024/texture_02.png",
+		"izumi.1024/texture_03.png"
+	],
+	"physics":"izumi.physics.json",
+	"expressions":
+	[
+		{"name":"F00","file":"expressions/f00.exp.json"},
+		{"name":"F01","file":"expressions/f01.exp.json"},
+		{"name":"F02","file":"expressions/f02.exp.json"},
+		{"name":"F03","file":"expressions/f03.exp.json"},
+		{"name":"F04","file":"expressions/f04.exp.json"},
+		{"name":"F05","file":"expressions/f05.exp.json"},
+		{"name":"F06","file":"expressions/f06.exp.json"}
+	],
+	"layout":
+	{
+		"center_x":0,
+		"y":1.2,
+		"width":2.9
+	},
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_REF.HEAD"},
+		{"name":"body", "id":"D_REF.BODY"}
+	],
+	"motions":
+	{
+		"idle":
+		[
+			{"file":"motions/idle_01.mtn" ,"fade_in":2000, "fade_out":2000},
+			{"file":"motions/idle_02.mtn" ,"fade_in":2000, "fade_out":2000},
+			{"file":"motions/idle_03.mtn" ,"fade_in":2000, "fade_out":2000},
+			{"file":"motions/idle_04.mtn" ,"fade_in":2000, "fade_out":2000}
+		],
+		"tap_body":
+		[
+			{ "file":"motions/izumi_06.mtn","fade_out":0},
+			{ "file":"motions/izumi_07.mtn","fade_out":0}
+		],
+		"pinch_in":
+		[
+			{ "file":"motions/izumi_08","fade_out":0}
+		],
+		"pinch_out":
+		[
+			{ "file":"motions/izumi_09","fade_out":0}
+		],
+		"shake":
+		[
+			{ "file":"motions/izumi_10.mtn","fade_in":500 ,"fade_out":0}
+		],
+		"flick_head":
+		[
+			{ "file":"motions/izumi_01.mtn","fade_out":0},
+			{ "file":"motions/izumi_02.mtn","fade_out":0},
+			{ "file":"motions/izumi_03.mtn","fade_out":0},
+			{ "file":"motions/izumi_04.mtn","fade_out":0},
+			{ "file":"motions/izumi_05.mtn","fade_out":0}
+		]
+	}
+}
