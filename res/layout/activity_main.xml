@@ -1,0 +1,218 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/live2DLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="7"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+
+                >
+                <ImageButton
+                    android:id="@+id/helpbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/imageselector5"
+
+                    android:background="@null"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    />
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+
+                >
+                <ImageButton
+                    android:id="@+id/minbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/scheduleminipad1"
+
+                    android:background="@null"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="30dp"
+                    />
+
+                <ImageView
+                    android:src="@drawable/iconspeak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/speakicon" />
+
+            </RelativeLayout>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="3"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="5"
+
+                    >
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/rl1"
+
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+
+                    >
+
+
+                    <ImageButton
+                        android:id="@+id/maxbutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/scheduleminipad"
+
+                        android:background="@null"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="30dp"
+                        />
+
+                    <ListView
+                        android:id="@+id/listview2"
+                        android:layout_width="match_parent"
+                        android:paddingTop="80dp"
+                        android:paddingLeft="30dp"
+                        android:paddingBottom="50dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/schedulepad"
+                        />
+
+                    <ImageButton
+                        android:id="@+id/managebutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/imageselector1"
+
+                        android:background="@null"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"/>
+
+                    <ImageButton
+                        android:id="@+id/serverbutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/imageselector3"
+
+                        android:background="@null"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="30dp"
+                        />
+                    <ImageButton
+                        android:id="@+id/alarmbutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/imageselector2"
+
+                        android:background="@null"
+                        android:layout_toLeftOf="@+id/serverbutton"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <ImageButton
+                        android:id="@+id/charabutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/imageselector4"
+
+                        android:background="@null"
+                        android:layout_toRightOf="@+id/serverbutton"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="6"
+
+            >
+            <ImageButton
+                android:id="@+id/talkbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/imageselector"
+
+                android:background="@null"
+                android:layout_gravity="center_horizontal"
+
+
+                />
+        </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>
