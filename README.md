@@ -1,7 +1,7 @@
 # IzumiReminder
 Personal Asistant using Live2D and connected to a ProgramO based website for basic English conversation
 # Preview
-![alt text](https://github.com/KujoKazuya/IzumiReminder/blob/master/screenshotsample.jpg)
+![alt text](https://github.com/KujoKazuya/IzumiReminder/blob/master/screenshotsample1.jpg)
 # Getting Started
 >This sample uses the Gradle build system. To build this project, use the "gradlew build" command or use "Import Project" in Android Studio.
 
